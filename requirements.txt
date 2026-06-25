@@ -1,0 +1,11 @@
+lightkurve>=2.4.0
+astroquery>=0.4.6
+astropy>=6.0.0
+wotan>=1.10
+scipy>=1.13.0
+numpy
+pandas
+joblib
+tqdm
+matplotlib>=3.9.0
+pytest
