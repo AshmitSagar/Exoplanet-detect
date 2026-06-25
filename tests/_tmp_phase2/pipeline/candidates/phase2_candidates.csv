@@ -1,0 +1,2 @@
+source_file,tic_id,candidate_number,period_days,t0,depth_ppm,duration_hours,snr,sde,power,n_transits
+TIC_987654321_sector_1.npz,987654321,1,2.5,0.75,20004.074912553773,3.7439999999999998,1186.095735155691,9.928016034800985,750305.6495757435,8
