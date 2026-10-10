@@ -3,20 +3,52 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
 # Virtual Environments
 .venv/
 venv/
 ENV/
 env/
+ENV/
 
-# Project Data (TESS FITS files & processed NPZ files are too large for Git)
-data/
+# Large Datasets & Model Checkpoints (downloaded FITS, NPZ, TFRecords, weights)
+data/raw/
+data/processed/
+data/ai_ready/
+data/candidates/
+data/kepler/
+data/models/
+*.pth
+*.pt
+*.tmp
 
-# Generated Plots
-plots/
-
-# Pytest Cache
+# Pytest / Coverage / Caches
 .pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
 
 # IDE and Editor settings
 .vscode/
@@ -26,3 +58,9 @@ plots/
 *.njsproj
 *.sln
 *.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
